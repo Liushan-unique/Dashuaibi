@@ -3,14 +3,16 @@ layout: page
 title: Projects
 ---
 <section class="list">
-    {% for post in site.posts %}
-        {% if post.projects %}
-            <div class="item {% if post.star %}star{% endif %}">
-                <a class="url" href="{% if post.externalLink %}{{ post.externalLink }}{% else %}{{ site.url }}{{ post.url }}{% endif %}">
-                    <aside><time datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date: "%b %d %Y" }}</time></aside>
-                    <h3 class="title">{{ post.title }}</h3>
-                </a>
-            </div>
-        {% endif %}
-    {% endfor %}
+   
+   <h3 style="">流程说明</h3>
+   <table style="margin: 0 auto;width: 800px;">
+	   <tr>
+	   		<td> step1:通过邮箱注册Github账号。
+	             step2:登陆网页版Github和GitHub Desktop，在http://jekyllthemes.org/page11/网站中寻找合适的主题网页。
+	             step3:点击demo可查看所选择的网页样式，如确定选择此网页，点击homepage进行fork。
+	             step4:fork后点击setting可对名称进行修改。
+	             step5:进入GitHub Desktop进行克隆，点击clone repository选择路径保存。
+	             step6:克隆完成后将保存的网页源代码文件夹导入Hbuilderx中可对个人网页进行修改。
+	             step7:每修改完一步保存，进入GitHub Desktop依次点击commit,push origin，view on github可查看修改后的网页。</td>
+		</tr>		 
 </section>
