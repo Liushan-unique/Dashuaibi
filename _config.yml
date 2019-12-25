@@ -10,11 +10,11 @@ description: A blog about technology and stuff related
 external-image: false
 picture: assets/images/profile.jpg
 
-# If you want to include your resume, set to true
+# If you want to include your Baidu, set to true
 # and specify source (external or local).
-resume: true
-resume-external: true
-resume-url: https://www.baidu.com
+Baidu: true
+Baidu-external: true
+Baidu-url: https://www.baidu.com
 
 url: https://liushan-unique.github.io/Dashuaibi/
 # your url: http://USERNAME.github.io
